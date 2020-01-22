@@ -21,13 +21,22 @@ class App extends Component {
     })
   }
 
-  
+  handleOnChange = event => {
+    this.setState({
+      inputValue : event.target.value
+    })
+  }
 
 
   render() {
+    
     return (
-      <div>
-        <h1>Comming Soon</h1>
+      <div className="App">
+        <ul className="todos">  </ul>
+        <form className="add-form" onSubmit={this.handleSubmit}>
+          <input type="text" onChange={this.handleOnChange} value={this.state.inputValue}/>
+          <input type="submit" value="Add"/>
+        </form>
       </div>
     );
   }
