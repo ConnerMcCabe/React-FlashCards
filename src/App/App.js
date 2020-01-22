@@ -6,6 +6,23 @@ class App extends Component {
     todos: []
   }
 
+  handleCreate = todo => {
+    this.setState({
+      todos : [todo, ...this.state.todos],
+      inputValue : ''
+    })
+  }
+
+  handleSubmit = event => {
+    event.preventDefault()
+    this.handleCreate(this.state.inputValue)
+    this.setState({
+      inputValue : ''
+    })
+  }
+
+  
+
 
   render() {
     return (
