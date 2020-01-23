@@ -39,9 +39,9 @@ class App extends Component {
     const renderTodos = this.state.todos.map((item, index) => {
       return (
         <form>
-          <li>
+          <li key={index} className="todo">
             {item}
-            <button>
+            <button onClick={() => this.handleDelete(index)}>
               Delete
             </button>
           </li>
