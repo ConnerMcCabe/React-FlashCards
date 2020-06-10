@@ -10,25 +10,10 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script src="node_modules/confetti-js/dist/index.min.js"></script>
-   
-    <title>Workflows</title>
+    <title>Reactbox</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <canvas id="my-canvas"></canvas>
-    <script>
-    var canvas1Settings = {
-      target: 'canvas1',
-      max: 100,
-      props: ['square', 'triangle', 'line'],
-      colors: [[80,80,80]],
-      clock: 3
-    };
-    var canvas1 = new ConfettiGenerator(canvas1Settings);
-    canvas1.render();
-  </script>
     <div id="root"></div>
-   
   </body>
 </html>
