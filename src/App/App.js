@@ -6,8 +6,25 @@ export default function App() {
   return (
     <div>
       <Accordion 
-        title=""
-        content=""
+        title="What is your return policy"
+        content="lorem ipsum"
+      />
+      <Accordion 
+        title="What is your return policy"
+        content="
+          <p>lorem ipsum kappa kappa </p>
+          <p>lorem ipsum kappa kappa </p>
+        "
+      />
+      <Accordion 
+        title="What is your return policy"
+        content="
+          <p>lorem ipsum kappa slappa </p>
+          </br>
+          <p>lorem ipsum kappa slappa </p>
+          </br>
+          <p>lorem ipsum kappa slappa </p>
+        "
       />
     </div>
   )
