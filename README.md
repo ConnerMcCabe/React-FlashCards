@@ -1,8 +1,7 @@
-# React Review 2000
-Delete the todo app for a react review featuring hooks
-going to focus on using props and styling accordions
-In the project directory, you can run:
+# React Review 2001
+currently being staged as a flashcard game for studying.
+in the future will probably hook it up to an API with questions
 
 
-### `npm i`
+### `npm install`
 ### `npm start`
