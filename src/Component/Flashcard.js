@@ -1,11 +1,10 @@
 import React from 'react';
-import './Flashcard';
 
-function Flashcard() {
+function Flashcard({flashcard}) {
     
     return (
         <div className="Flashcard">
-            
+            {flashcard.question}
         </div>
     )
 };
