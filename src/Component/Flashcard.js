@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Flashcard.css'
 
-function Flashcard({flashcard}) {
+function Flashcard({ flashcard }) {
     const [flip, setFlip] = useState(false)
 
     return (
@@ -15,7 +15,6 @@ function Flashcard({flashcard}) {
                 </div>
             </div>
                 <div className="back">{flashcard.answer}</div>
-            {flip ? flashcard.answer : flashcard.question}
         </div>
     )
 };
