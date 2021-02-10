@@ -1,6 +1,6 @@
-# React Review 2001
-currently being staged as a flashcard game for studying.
-in the future will probably hook it up to an API with questions
+# Flash Cards
+reviewing react with some flashcard game and connecting it to an API to pull questions
+
 
 
 ### `npm install`
