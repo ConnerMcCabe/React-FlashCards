@@ -25,7 +25,7 @@ function Flashcard({ flashcard }) {
                 {flashcard.question}
                 <div className="flashcardOptions">
                     {flashcard.options.map(option => {
-                        return <div className="flashcardOption">{option}</div>
+                        return <div className="flashcardOption" key={option}>{option}</div>
                     })}
                 </div>
             </div>

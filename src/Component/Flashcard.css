@@ -3,6 +3,41 @@
     margin: 1rem 2rem;
 }
 
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    background-color: #1A355B;
+    padding: 0 1.5rem;
+}
+
+.form-group {
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group > label {
+    font-size: .75rem;
+    margin-bottom: .25rem;
+}
+
+.button {
+    background-color: #51B0D7;
+    color: #F29757;
+    padding: .5rem 1em;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: tomato;
+
+} 
+
 .card-grid {
     display: grid;
     align-items: center;
@@ -27,7 +62,6 @@
 .card:hover {
     --translate-y: -2px;
     box-shadow: 0 0 5px 2px rgba(255, 230, 40, 0.7);
-    /* color: #E3AE41; */
 }
 
 .card.flip {
